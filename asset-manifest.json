@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kerjakudev2/static/css/main.073c9b0a.css",
+    "main.css": "/kerjakudev2/static/css/main.3bd88fde.css",
     "main.js": "/kerjakudev2/static/js/main.b098813c.js",
     "static/js/787.0e46809b.chunk.js": "/kerjakudev2/static/js/787.0e46809b.chunk.js",
     "static/media/logo.svg": "/kerjakudev2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kerjakudev2/index.html",
-    "main.073c9b0a.css.map": "/kerjakudev2/static/css/main.073c9b0a.css.map",
+    "main.3bd88fde.css.map": "/kerjakudev2/static/css/main.3bd88fde.css.map",
     "main.b098813c.js.map": "/kerjakudev2/static/js/main.b098813c.js.map",
     "787.0e46809b.chunk.js.map": "/kerjakudev2/static/js/787.0e46809b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
+    "static/css/main.3bd88fde.css",
     "static/js/main.b098813c.js"
   ]
 }

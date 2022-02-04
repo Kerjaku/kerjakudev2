@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/kerjakudev2/static/css/main.3bd88fde.css",
-    "main.js": "/kerjakudev2/static/js/main.ed0000ac.js",
+    "main.js": "/kerjakudev2/static/js/main.80315f95.js",
     "static/js/787.0e46809b.chunk.js": "/kerjakudev2/static/js/787.0e46809b.chunk.js",
     "static/media/homepage-icon.PNG": "/kerjakudev2/static/media/homepage-icon.3a24e43eaf5e5ceffbb4.PNG",
     "static/media/childfund-logo.PNG": "/kerjakudev2/static/media/childfund-logo.fda6ef58e31a91081d25.PNG",
     "static/media/ModuleOneIcon.png": "/kerjakudev2/static/media/ModuleOneIcon.851f25e97db6818548bb.png",
     "index.html": "/kerjakudev2/index.html",
     "main.3bd88fde.css.map": "/kerjakudev2/static/css/main.3bd88fde.css.map",
-    "main.ed0000ac.js.map": "/kerjakudev2/static/js/main.ed0000ac.js.map",
+    "main.80315f95.js.map": "/kerjakudev2/static/js/main.80315f95.js.map",
     "787.0e46809b.chunk.js.map": "/kerjakudev2/static/js/787.0e46809b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bd88fde.css",
-    "static/js/main.ed0000ac.js"
+    "static/js/main.80315f95.js"
   ]
 }

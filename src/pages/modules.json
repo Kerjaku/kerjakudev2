@@ -1,0 +1,263 @@
+[
+    {
+        "name": "01 Mengenal Potensi Diri",
+        "description": "Peserta memahami jenis-jenis kepribadian dan mampu mengenali kepribadian untuk pengembangan potensi masing-masing.",
+        "modulenum": "one",
+        "modulenumber": "0",
+        "modulepagetotal" : "10",
+        "modulenames": [
+            {
+                "name": "A. Transisi Ke Dunia Kerja",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Mengenali Potensi Diri Dan Kecenderungan Kepribadian",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Mengenali Kepribadian Dari Kecenderungan Temperamen",
+                "pageNum": "4"
+            },
+            {
+                "name": "D. Mengenali Kepribadian Dari Kecerdasan Majemuk",
+                "pageNum": "6"
+            },
+            {
+                "name": "E. Mengenali Kepribadian Dengan Metode DISC",
+                "pageNum": "8"
+            },
+            {
+                "name": "F. Refleksi Pembelajaran",
+                "pageNum": "10"
+            }
+        ]
+    },
+    {
+        "name": "02 Mental Block",
+        "modulenum": "two",
+        "modulenumber": "1",
+        "description": "Peserta memahami konsepsi mental block dan mampu merumuskan langkah pengikisan mental block dalam aplikasi personal.",
+        "modulepagetotal" : "4",
+        "modulenames": [
+            {
+                "name": "A. Mengenali Mental Block",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Menemukenali Mental Block",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Refleksi",
+                "pageNum": "2"
+            },
+            {
+                "name": "D. Mengikis Mental Block",
+                "pageNum": "3"
+            },
+            {
+                "name": "E. Refleksi Pembelajaran",
+                "pageNum": "4"
+            }
+        ]
+    },
+    {
+        "name": "03 PENGENALAN NILAI SOSIAL DAN NILAI DIRI",
+        "description": "Peserta memahami konsep nilai sosial dan nilai diri serta mampu menentukan nilai personal dalam tatanan sosial masing-masing.",
+        "modulenum": "three",
+        "modulenumber": "2",
+        "modulepagetotal" : "4",
+        "modulenames": [
+            {
+                "name": "A. Pengantar",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Nilai dan Keyakinan Diri",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Mengenal dan Mengidentifikasi Nilai Sosial",
+                "pageNum": "2"
+            },
+            {
+                "name": "D. Mengembangkan Nilai Produktif Diri",
+                "pageNum": "3"
+            },
+            {
+                "name": "E. Refleksi Pembelajaran",
+                "pageNum": "4"
+            }
+        ]
+    },
+    {
+        "name": "04 VISI DAN ORIENTASI",
+        "description": "Peserta mampu memahami konsep visi orientasi dan mampu menyusun visi personal.",
+        "modulenum": "four",
+        "modulenumber": "3",
+        "modulepagetotal" : "3",
+        "modulenames": [
+            {
+                "name": "A. Mengenal Konsep Visi dan Orientasi",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Arti Penting Visi dan Orientasi",
+                "pageNum": "1"
+            },
+            {
+                "name": "C.  Menetapkan Visi dan Membangun Orientasi",
+                "pageNum": "2"
+            },
+            {
+                "name": "E. Refleksi Pembelajaran",
+                "pageNum": "3"
+            }
+        ]
+    },
+    {
+        "name": "05 ASERTIF",
+        "modulenum": "five",
+        "modulenumber": "4",
+        "modulepagetotal" : "4",
+        "description": "Peserta memahami konsep tindakan asertif dan mengetahui cara-cara untuk mengembangkan komunikasi asertif.",
+        "modulenames": [
+            {
+                "name": "A. Konsep Asertif",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Pasif, Agresif dan Asertif",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Mengembangkan Komunikasi Asertif",
+                "pageNum": "2"
+            },
+            {
+                "name": "D. Studi Kasus dan Pendalaman",
+                "pageNum": "3"
+            },
+            {
+                "name": "E. Refleksi Pembelajaran",
+                "pageNum": "4"
+            }
+        ]
+    },
+    {
+        "name": "06 PENGAMBILAN KEPUTUSAN",
+        "modulenum": "six",
+        "modulenumber": "5",
+        "modulepagetotal" : "3",
+        "description": "Peserta mengetahui cara-cara pengambilan keputusan dan mampu membuat keputusan untuk mendukung pengembangan kapasitas personal.",
+        "modulenames": [
+            {
+                "name": "A. Pentingnya Pengambilan Keputusan",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Komponen Pengambilan Keputusan",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Proses Pengambilan Keputusan",
+                "pageNum": "2"
+            },
+            {
+                "name": "E. Refleksi Pembelajaran",
+                "pageNum": "3"
+            }
+        ]
+    },
+    {
+        "name": "07 PENGENALAN BUDAYA KERJA DAN KULTUR SEKTORAL",
+        "modulenum": "seven",
+        "modulenumber": "6",
+        "modulepagetotal" : "5",
+        "description": "Peserta dapat mengenali cara memotret budaya kerja dan menyusun rencana-rencana untuk mengikis dampak Culture Shock.",
+        "modulenames": [
+            {
+                "name": "A. Mengenal Budaya Kerja",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Pengelompokan Budaya Kerja",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Culture Shock",
+                "pageNum": "2"
+            },
+            {
+                "name": "D. Mengenal Budaya Kerja untuk Mengurangi Culture Shock",
+                "pageNum": "3"
+            },
+            {
+                "name": "F. Pengenalan Kultur Kerja Sektoral",
+                "pageNum": "4"
+            },
+            {
+                "name": "G. Refleksi Pembelajaran",
+                "pageNum": "5"
+            }
+        ]
+    },
+    {
+        "name": "08 PENGELOLAAN PELUANG",
+        "modulenum": "eight",
+        "modulenumber": "7",
+        "modulepagetotal" : "3",
+        "description": "Peserta dapat menemukenali peluang di sekitarnya dan mampu menyusun rencana untuk mengelola peluang tersebut.",
+        "modulenames": [
+            {
+                "name": "A. Konsep Peluang",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Mengelola Peluang",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Pesan Kunci dan Latihan",
+                "pageNum": "2"
+            },
+            {
+                "name": "D. Refleksi Pembelajaran",
+                "pageNum": "3"
+            }
+        ]
+    },
+    {
+        "name": "09 PENGELOLAAN TRADE OFF",
+        "modulenum": "nine",
+        "modulenumber": "8",
+        "modulepagetotal" : "5",
+        "description": "Peserta mampu mengenali konsep dan aspek trade off serta menerapkan pertukaran yang seimbang.",
+        "modulenames": [
+            {
+                "name": "A. Mengenal Konsep Trade Off",
+                "pageNum": "0"
+            },
+            {
+                "name": "B. Empat Aspek Trade Off",
+                "pageNum": "1"
+            },
+            {
+                "name": "C. Membangun Pondasi Trade Off",
+                "pageNum": "2"
+            },
+            {
+                "name": "E. Menyeimbangkan Dua Faktor",
+                "pageNum": "3"
+            },
+            {
+                "name": "F. Studi Kasus untuk Pendalaman dan Latihan",
+                "pageNum": "4"
+            },
+            {
+                "name": "G. REFLEKSI PEMBELAJARAN",
+                "pageNum": "5"
+            }
+        ]
+    }
+]

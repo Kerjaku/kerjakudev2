@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom'
+//import other React components
 import ModuleOneA from "./module-one/moduleoneA.js"
 import ModuleOneB from "./module-one/moduleoneB.js"
 import ModuleOneB2 from "./module-one/moduleoneB2.js"
@@ -52,8 +54,7 @@ import ModuleNineC from "./module-nine/modulenineC"
 import ModuleNineE from "./module-nine/modulenineE"
 import ModuleNineF from "./module-nine/modulenineF"
 import ModuleNineG from "./module-nine/modulenineG"
-
-import { useLocation } from 'react-router-dom'
+import ModuleQuiz from "./module-quiz.js"
 import Header from "./components/Header.js"
 import Footer from "./components/Footer.js"
 
@@ -63,7 +64,7 @@ const theme = createTheme({
             main: '#068238',
         },
         secondary: {
-            main: '#000000',
+            main: '#D3D3D3',
         },
         tertiary: {
             main: '#FFA800',
@@ -74,6 +75,7 @@ const theme = createTheme({
 function Module(props) {
     const page = props.page;
     const modulenumber = props.modulenumber;
+    const username = props.username;
     if (modulenumber === 0) {
         if (page === 0) {
             return <ModuleOneA />
@@ -108,8 +110,11 @@ function Module(props) {
         if (page === 10) {
             return <ModuleOneF />
         }
+        if (page === 11) {
+            return <ModuleQuiz modulenumber={modulenumber} username={username}/>
+        }
     }
-    if(modulenumber===1){
+    if (modulenumber === 1) {
         if (page === 0) {
             return <ModuleTwoA />
         }
@@ -125,25 +130,28 @@ function Module(props) {
         if (page === 4) {
             return <ModuleTwoE />
         }
+        if (page === 5) {
+            return <ModuleQuiz modulenumber={modulenumber} username={username}/>
+        }
     }
-    if(modulenumber===2){
+    if (modulenumber === 2) {
         if (page === 0) {
-            return <ModuleThreeA/>
+            return <ModuleThreeA />
         }
         if (page === 1) {
-            return <ModuleThreeB/>
+            return <ModuleThreeB />
         }
         if (page === 2) {
-            return <ModuleThreeC/>
+            return <ModuleThreeC />
         }
         if (page === 3) {
-            return <ModuleThreeD/>
+            return <ModuleThreeD />
         }
         if (page === 4) {
-            return <ModuleThreeE/>
+            return <ModuleThreeE />
         }
     }
-    if(modulenumber===3){
+    if (modulenumber === 3) {
         if (page === 0) {
             return <ModuleFourA />
         }
@@ -152,11 +160,15 @@ function Module(props) {
         }
         if (page === 2) {
             return <ModuleFourC />
-        } if (page === 3) {
+        } 
+        if (page === 3) {
             return <ModuleFourE />
         }
+        if (page === 4) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
-    if(modulenumber===4){
+    if (modulenumber === 4) {
         if (page === 0) {
             return <ModuleFiveA />
         }
@@ -172,8 +184,11 @@ function Module(props) {
         if (page === 4) {
             return <ModuleFiveE />
         }
+        if (page === 5) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
-    if(modulenumber===5){
+    if (modulenumber === 5) {
         if (page === 0) {
             return <ModuleSixA />
         }
@@ -186,8 +201,11 @@ function Module(props) {
         if (page === 3) {
             return <ModuleSixE />
         }
+        if (page === 4) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
-    if(modulenumber===6){
+    if (modulenumber === 6) {
         if (page === 0) {
             return <ModuleSevenA />
         }
@@ -206,8 +224,11 @@ function Module(props) {
         if (page === 5) {
             return <ModuleSevenG />
         }
+        if (page === 6) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
-    if(modulenumber===7){
+    if (modulenumber === 7) {
         if (page === 0) {
             return <ModuleEightA />
         }
@@ -220,8 +241,11 @@ function Module(props) {
         if (page === 3) {
             return <ModuleEightD />
         }
+        if (page === 4) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
-    if(modulenumber===8){
+    if (modulenumber === 8) {
         if (page === 0) {
             return <ModuleNineA />
         }
@@ -240,39 +264,57 @@ function Module(props) {
         if (page === 5) {
             return <ModuleNineG />
         }
+        if (page === 6) {
+            return <ModuleQuiz modulenumber={modulenumber-1} username={username}/>
+        }
     }
     return <></>
 }
 
 function ModuleOneBase() {
     const location = useLocation()
-    let { page, modulenumber, modulepagetotal } = location.state
+    let { page, modulenumber, modulepagetotal, username } = location.state
     const [pageNumber, setpageNumber] = useState(page)
 
     function nextPage() {
         setpageNumber(Number(pageNumber) + 1)
     }
-
+    function prevPage() {
+        setpageNumber(Number(pageNumber) - 1)
+    }
+   
     function ModuleFooter(props) {
         const page = props.page;
-        if (page !== Number(modulepagetotal)) {
+        if (page !== Number(modulepagetotal) && page !== 0) {
             return <>
-                <span style={{ marginRight: '2%' }}><Button variant="contained" onClick={nextPage}>Melanjutkan</Button></span>
-                <Link to="/kerjakudev2/etrainingHome"><Button variant="contained">Return to ETraining Home</Button></Link>
+                <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <span style={{ paddingRight: '1%' }}><Button variant="contained" onClick={prevPage}>Kembali</Button></span>
+                    <Button variant="contained" onClick={nextPage}>Melanjutkan</Button>
+                </div>
             </>
         }
-        return <Link to="/kerjakudev2/etrainingHome"><Button variant="contained">Return to ETraining Home</Button></Link>
+        else if (page !== Number(modulepagetotal)) {
+            return <Button variant="contained" onClick={nextPage}>Melanjutkan</Button>
+        }
+        else if (page == Number(modulepagetotal)) {
+            return <>
+                <span style={{ paddingRight: '1%' }}><Button variant="contained" onClick={prevPage}>Kembali</Button></span>
+            </>
+        }
+        return <></>
     }
 
     return (<ThemeProvider theme={theme}>
         <Header />
-        <div id="moduleholder">{<Module page={Number(pageNumber)} modulenumber={Number(modulenumber)} />}</div>
+        <div id="moduleholder">{<Module page={Number(pageNumber)} modulenumber={Number(modulenumber)} username={username} />}</div>
         <div class="module-button">
             {<ModuleFooter page={Number(pageNumber)} />}
         </div>
+        <div class="module-button">
+            <Link to="/kerjakudev2/etrainingHome" style={{ textDecoration: "none" }}><Button variant="contained" color="secondary">Return to ETraining Home</Button></Link>
+        </div>
         <Footer />
     </ThemeProvider >
-
     )
 }
 export default ModuleOneBase;

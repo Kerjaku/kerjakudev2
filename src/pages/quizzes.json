@@ -1,0 +1,346 @@
+[
+    {
+        "modulenum": "one",
+        "modulenumber": "0",
+        "quiztitle":"1. Quiz Potensi Diri",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Potensi yang dimiliki seseorang dalam dirinya untuk berhubungan social  dan  mengendalikan jiwanya -   kesadaran diri -  serta membangun sisi tanggung jawab atas diri sendiri dan orang lain, merupakan potensi:",
+                "optionA": "a. Potensi Fisik",
+                "optionB": "b. Potensi Sosial emosional",
+                "optionC": "c. Potensi mental sprititual",
+                "optionD": "d. Potensi Ketahanan Diri",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Seorang tradisional, cinta keluarga, dan teman-temannya. Tipe ini cenderung menghindari dan tidak menyukai petualangan atau hal-hal baru. Sekalipun berjiwa sosial yang tinggi namun kontribusinya terbatas pada lingkup kecil dan terjaga. Ciri-ciri tersebut merupakan gambaran orang yang memiliki kepribadian dengan tipe:",
+                "optionA": "a. Tipe Melankolis",
+                "optionB": "b. Tipe Saguin",
+                "optionC": "c. Tipe Plegmatis",
+                "optionD": "d. Tipe Kolerik",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Kemampuan untuk mendalami keberadaan diri sendiri, cenderung introvert. Orang ini mampu mengenali dirinya sendiri dengan baik, mulai dari kekurangan dan kelebihan sehingga memungkinkan dirinya untuk berkembang. Ini merupakan kecerdasan:",
+                "optionA": "a. Kecerdasan Linguistik",
+                "optionB": "b. Kecerdasan Visual Spasial",
+                "optionC": "c. Kecerdasan Intrapersonal",
+                "optionD": "d. Kecedasan Interpersonal",
+                "correctOption": "optionC"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Dalam mengenali kepribadian dengan Metode DISC (Dominant, Influence, Steadiness, Compliance), kepribadian seseorang yang di tegaskan dengan ciri-ciri : tenang dan menghanyutkan, agak sedikit kaku karena menjadi seorang yang taat pada aturan-aturan yang sudah ditentukan. Semuanya dilakukan untuk menjaga kestabilan kerja yang diharapkannya, di sebut orang yang memiliki kepribadian:",
+                "optionA": "a. Dominant",
+                "optionB": "b. Influence",
+                "optionC": "c. Steadiness",
+                "optionD": "d. Compliance",
+                "correctOption": "optionC"
+            }
+        ]
+    },
+    {
+        "modulenum": "two",
+        "modulenumber": "1",
+        "quiztitle": "2. Mental Block Quiz",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Apa yang dimaksud dengan mental block?",
+                "optionA": "a. Sebuah kondisi yang dimana ketika batin kita berada dalam keadaan tentram dan tenang, sehingga memungkinkan kita untuk menikmati kehidupan sehari-hari dan menghargai orang lain di sekitar",
+                "optionB": "b. merupakan hambatan psikologis yang menyelubungi pikiran seseorang di mana kondisi ini dapat menghalangi keberhasilan.",
+                "optionC": "c. merupakan motivasi untuk mempertahankan dan meningkatkan pandangan yang hanya menguntungkan diri sendiri dan berarti menempatkan diri di tengah satu tujuan serta tidak peduli dengan penderitaan orang lain.",
+                "optionD": "d. merupakan satu filsafat yang memiliki pandangan moral, politik atau sosial yang menekankan kemerdekaan manusia serta kepentingan bertanggung jawab dan kebebasan sendiri.",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Mental block terbentuk akibat terprogramnya pikiran sesorang dalam waktu yang cukup lama oleh beberapa faktor diantaranya:",
+                "optionA": "a. Keluarga",
+                "optionB": "b. Kondisi masa kanak-kanak",
+                "optionC": "c. Kejadian tertentu",
+                "optionD": "d. Semua jawaban di atas benar",
+                "correctOption": "optionD"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Apa yang di maksud dengan mental block dengan kategori Blok Ego:",
+                "optionA": "a. seseorang menarik kesimpulan berdasarkan sistem memori yang tertanam di pikirannya. Sistem memori dalam blok persepsi akan mengirimkan sinyal pesimis - ‘tidak mungkin’",
+                "optionB": "b. seseorang akan merasa takut jika membuat kesalahan dalam konteks yang wajar dan tidak melanggar tata aturan hukum",
+                "optionC": "c. seseorang akan menggunakan logika yang keliru, mengandalkan perasaan dan intuisi",
+                "optionD": "d. seseorang tidak mampu melihad. seseorang tidak mampu melihat kelemahan diri sendiri, selalu menyalahkan orang lain, memaksakan kehendak dan mengalami bias kepercayaan diri, yaitu kondisi di mana dalam memupuk rasa percaya diri dilakukan dengan meremehkan orang laint kelemahan diri sendiri, selalu menyalahkan orang lain, memaksakan kehendak dan mengalami bias kepercayaan diri, yaitu kondisi di mana dalam memupuk rasa percaya diri dilakukan dengan meremehkan orang lain",
+                "correctOption": "optionC"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "“ini pendapat saya, setiap orang memiliki sudut pandang yang berbeda, membuat forum mengetahui pendapat akan membuat saya mendapatkan masukan yang berguna, pendapat saya mungkin bisa menginsiprasi orang lain dan seterusnya”. Pernyataan ini merupakan salah satu aspek dalam mengikis mental blok yang di sebut;",
+                "optionA": "a. Menemukenali mental blok",
+                "optionB": "b. Rekonstruksi Pola Pikir negative",
+                "optionC": "c. Tndakan Nyata",
+                "optionD": "d. Ambil aktivitas pendukung dan lakukan pemantauan",
+                "correctOption": "optionB"
+            }
+        ]
+    },
+    {
+        "modulenum": "four",
+        "modulenumber": "3",
+        "quiztitle":"3. Pengenalan Nilai Sosial dan Nilai Diri & Visi dan Orientasi Quiz",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "“Nilai adalah sekumpulan tindakan manusia yang tersusun secara sistematis dalam bentuk material atau nonmaterial. Dengan kegunaan sangat penting untuk kemudian diterapkan dalam kelompok sosial yang dilakukan dalam keseharian”, definisi nilai tersebut menurut:",
+                "optionA": "a. Notonagoro",
+                "optionB": "b. Kluckhohn & Strodtbeck",
+                "optionC": "c. Durkheim",
+                "optionD": "d. Thomas Alva Edison",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Konsepsi dari berbagai kumpulan keteraturan sosial yang akan mendorong seseorang untuk mengaplikasikan beragam kegiatan-kegiatan, baik dalam kegiatan yang berwujud negatif ataupun kegiatan yang berwujud positif, disebut:",
+                "optionA": "a. Ambisi",
+                "optionB": "b. Nilai",
+                "optionC": "c. Demokratis",
+                "optionD": "d. Toleransi",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Gambaran ideal di masa mendatang terkait kondisi pecapaian seseorang disebut",
+                "optionA": "a. Orientasi",
+                "optionB": "b. Visi",
+                "optionC": "c. Fakta",
+                "optionD": "d. Fantasi",
+                "correctOption": "optionA"
+            }
+        ]
+    },
+    {
+        "modulenum": "five",
+        "modulenumber": "4",
+        "quiztitle":"4. Quiz Komunikasi Asertif",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Kemampuan pemuda untuk berbicara dan bertindak dengan ketegasan diri dalam berinteraksi dan berpikir dalam kehidupan sosial merupakan:",
+                "optionA": "a. Pemahaman Asertif",
+                "optionB": "b. Sikap Asertif",
+                "optionC": "c. Keterampilan Antarpersonal",
+                "optionD": "d. Keterampilan Komunikasi",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Menujukkan keberanian dengan mengekspresikan diri (pikiran dan perasaan) yang disertai kejujuran untuk berpendapat dan mempertahankan keyakinannya secara konkret dan diplomatis tanpa melukai hak orang lain adalah ciri khas dalam sebuah sikap:",
+                "optionA": "a. Sikap Asertif",
+                "optionB": "b. Pemahaman Asertif",
+                "optionC": "c. Kecerdasan Berbicara",
+                "optionD": "d. Kecerdasan dalam Berbahasa",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Kemampuan seseorang yang telah bersikap Asertif tentu memiliki dampak yang baik bagi pemuda itu sendiri, salah satu manfaat positif yang paling tepat dari bersikap Asertif adalah:",
+                "optionA": "a. Mampu memanipulasi pemikiran orang lain",
+                "optionB": "b. Meningkatkan rasa percaya diri saat melakukan public speaking",
+                "optionC": "c. Menjadi pribadi yang cenderung “apa adanya” dan terbuka pada siapapun",
+                "optionD": "d. Mampu menghargai orang lain serta memiliki trigger untuk keluar dari zona nyaman",
+                "correctOption": "optionD"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Perilaku Asertif sangat diperlukan oleh setiap pemuda yang ingin mengembangkan dirinya agar:",
+                "optionA": "a. Dapat memperoleh image atau nama yang baik di depan orang lain",
+                "optionB": "b. Lebih mengenal diri dan lebih jujur dalam membina hubungan dengan sesama pemuda lainnya",
+                "optionC": "c. Mampu mempengaruhi orang lain dengan mengandalkan keberanian dalam diri",
+                "optionD": "d. Dapat di segani dan di hormati oleh orang lain",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"4",
+                "quizquestion": "Tidak jarang orang keliru dalam menyamakan sikap asertif dengan agresif, atau kita sebagai pemuda sering kali melihat kedua hal tersebut hampir sama. Padahal kedua sikap tersebut sangat berbeda. Adapun perbedaan dari sikap asertif dan agresif yang paling mencolok adalah:",
+                "optionA": "a. Sikap Asertif cenderung dinamis dan Sikap Agresif cenderung tidak punya tolak ukur dalam bertindak",
+                "optionB": "b. Sikap Asertif cenderung menghargai orang lain dan Sikap Agresif cenderung egois dalam memandang suatu hal",
+                "optionC": "c. Sikap Asertif cenderung memiliki tujuan yang jelas saat mengutarakan pendapat dan sikap agresif cenderung dan berpotensi untuk menyakiti dan mempermalukan orang lain karena ucapannya",
+                "optionD": "d. Sikap Asertif cenderung memiliki rasa percaya diri yang terukur, sementara sikap agresif memiliki sifat pemberani namun tidak terukur saat eksekusinya",
+                "correctOption": "optionC"
+            }
+        ]
+    },
+    {
+        "modulenum": "six",
+        "modulenumber": "5",
+        "quiztitle":"5. Quiz Pengambilan Keputusan",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Mengapa sikap pengambilan keputusan yang baik begitu penting bagi setiap pemuda?",
+                "optionA": "a. Agar nantinya, setiap pemuda mampu untuk menentukan pilihannya serta meraih visi dan tujuannya dengan baik dan terukur.",
+                "optionB": "b. Agar dapat memperoleh kepercayaan diri dan tidak “plin-plan” saat menentukan pilihan",
+                "optionC": "c. Agar mampu mendapatkan respect dari orang lain dan dilihat sebagai sosok yang memiliki jiwa leadership",
+                "optionD": "d. Agar pemuda menjadi jeli untuk melihat situasi dan kondisi dalam pengambilan keputusan",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Untuk melakukan pengambilan keputusan, ada beberapa hal yang harus dipertimbangkan pemuda agar keputusan yang dibuat dapat menjadi rasional terhatap kondisi yang dihadapi dan berangkat dari emosi sesaat. Adapun beberapa komponen yang paling tepat dalam pengambilan keputusan adalah:",
+                "optionA": "a. Keberanian, Keyakinan, Kepribadian dan Kemandirian",
+                "optionB": "b. Tujuan (Goals), Alternatif, Pilihan (Choice) dan Konsekuensi",
+                "optionC": "c. Rasional, Realistis dan Fundamental ",
+                "optionD": "d. Tolak Ukur, Kepribadian dan Rendah Hati",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Sikap pengambilan keputusan yang dilakukan setiap pemuda tentu memiliki dampak baik ataupun buruk bagi dirinya sendiri. Oleh karena itu, cara yang paling tepat bagi setiap pemuda untuk melakukan antisipasi terkait dengan hasil dari pengambilan keputusan yang diambil adalah:",
+                "optionA": "a. Seorang pemuda harus cermat dalam mengidentifikasi apa konsekuensi dari keputusan yang sudah dibuat",
+                "optionB": "b. Sebagai makhluk sosial, seorang pemuda wajib meminta bantuan kepada orang lain untuk memberikan saran dari hasil pengambilan keputusan",
+                "optionC": "c. Seorang pemuda melakukan tindakan agresif dari hasil keputusan tersebut",
+                "optionD": "d. Seorang pemuda harus mengatur emosi dan memiliki pikiran yang jernih ketika melakukan antisipasi terkait dari hasil pengambilan keputusan yang sudah dibuat",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Untuk menentukan pilihan, seorang pemuda wajib memiliki integritas dalam dirinya agar proses eksekusi dalam menentukan pilihan dapat tercapai secara terukur. Namun, apabila seorang pemuda tidak memiliki integritas dalam dirinya, hal yang dapat terjadi ialah:",
+                "optionA": "a. Seorang pemuda menjadi pribadi yang angkuh dan berjalan tanpa tolak ukur",
+                "optionB": "b. Seorang pemuda menjadi pribadi yang tidak dapat diandalkan dalam hal apapun, terutama dalam hal kedisiplinan",
+                "optionC": "c. Seorang pemuda tidak mampu untuk merealisasikan keputusan yang telah dibuat dan gagal untuk memproyeksikan berbagai macam konsekuensi yang akan muncul",
+                "optionD": "d. Seorang pemuda tidak mampu menemukan jati dirinya sendiri",
+                "correctOption": "optionC"
+            }
+        ]
+    },
+    {
+        "modulenum": "seven",
+        "modulenumber": "6",
+        "quiztitle":"6. Quiz Pengenalan Budaya Kerja dan Kultur Sektoral",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Apakah yang disebut dengan budaya kerja?",
+                "optionA": "a. Sebuah kebiasaan masyarakat dalam mengerjakan suatu hal yang berulang kali setiap hari",
+                "optionB": "b. Merupakan cara manusia modern untuk mendapatkan materi dengan menawarkan jasa atau wirausaha kepada perusahaan maupun pelanggan",
+                "optionC": "c. Sebuah kebiasaan masyarakat untuk meraih tingkat karir tertinggi dengan bekerja secara giat",
+                "optionD": "d. Merupakan sebuah konsekuensi dalam suatu organisasi yang dibentuk oleh seperangkat nilai dan keyakinan, dilakukan sejak lama dan memiliki dampak besar dalam perilaku, kualitas, dan kuantitas pekerjaan yang dilakukan oleh karyawan dalam suatu perusahaan.",
+                "correctOption": "optionD"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Mengenal tipe masing-masing budaya kerja akan membantu para pemuda yang akan bekerja atau berwirausaha untuk mempersiapkan diri. Selain itu, terdapat salah satu budaya bekerja yang memiliki ciri khas tersendiri, biasanya organisasi (tempat kerja) tersebut dipersatukan oleh kesetiaan dan tradisi serta menjunjung tinggi nilai kerjasama, partisipasi dan pemufakatan. Tipe Budaya kerja tersebut adalah:",
+                "optionA": "a. Budaya Market",
+                "optionB": "b. Budaya Adokrasi",
+                "optionC": "c. Budaya Hierarki",
+                "optionD": "d. Budaya Klan",
+                "correctOption": "optionD"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Dalam budaya kerja, tentu setiap pemuda dapat merasakan perasaan tidak nyaman dan insecure karena perbedaan budaya yang dialami sebelumnya. Sehingga kemudian, definisi culture shock yang paling tepat adalah?",
+                "optionA": "a. Merupakan perasaan sedih karena meninggalkan kebiasaan lama",
+                "optionB": "b. Menurunnya rasa percaya diri terhadap soft-skill yang dimiliki oleh pemuda",
+                "optionC": "c. Merupakan sebuah fenomena “geger budaya” bagi setiap orang yang melintasi suatu budaya ke budaya lain yang jauh berbeda dari segi apapun",
+                "optionD": "d. Ketidakmampuan pemuda dalam mencari jati dirinya dan menjadi orang yang introvert karena menemukan hal baru yang tidak cocok dengan dirinya ",
+                "correctOption": "optionC"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Apa pentingnya mengenali budaya kerja?",
+                "optionA": "a. Seorang pemuda mampu meraih materi (kekayaan) dan mensejahterakan hidup untuk diri dan keluarganya",
+                "optionB": "b. Seorang pemuda mampu melakukan analisis secara mendalam dan mengukur dirinya guna untuk menyiapkan mental dan segala kemungkinan yang akan terjadi pada pemuda tersebut saat bekerja",
+                "optionC": "c. Seorang pemuda bisa membuat relasi terhadap orang lain karena memiliki ilmu tentang budaya kerja yang baik.",
+                "optionD": "d. Seorang pemuda dapat menjadi orang yang lebih giat dan pantang menyerah",
+                "correctOption": "optionB"
+            }
+        ]
+    },
+    {
+        "modulenum": "eight",
+        "modulenumber": "7",
+        "quiztitle":"7. Mengelola Peluang",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Apa aktivitas inti dari pengelolaan peluang?",
+                "optionA": "a. Adalah sebuah kegiatan menemukenali, menentukan dan menindaklanjuti kemungkinan yang dapat membawa pemuda untuk menciptakan kualitas kehidupan yang lebih baik melalui perolehan kerja layak.",
+                "optionB": "b. Sebuah kegiatan dalam memperoleh pendapatan guna memperbaiki/ meningkatkan kualitas hidup.",
+                "optionC": "c. Melakukan kegitan berupa meningkatkan kapasitas dengan mengasah skill yang nantinya mendukung dengan dunia kerjanya",
+                "optionD": "d. Sebuah kegiatan pemuda berupa  merefleksikan diri sendiri dan berpikir jernih agar mendapatkan inspirasi dalam meraih materi",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Dalam melakukan proses kegiatan memahami dan mengenali kesempatan dalam peningkatan kapasitas personal, terdapat sebuah proses menyatukan informasi yang didapatkan melalui proses searching yang dapat memudahkan pemuda dalam mendeskripsikan dan membandingkan setiap pilihan kesempatan. Kegiatan tersebut dapat disebut sebagai?",
+                "optionA": "a. Searching",
+                "optionB": "b. Matching",
+                "optionC": "c. Compiling",
+                "optionD": "d. Identifiying",
+                "correctOption": "optionC"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Masih dalam kegiatan memahami kesempatan dalam peningkatan kapasitas personal, terdapat sebuah proses dalam memilih opsi kesempatan yang sesuai dengan kebutuhan setiap pemuda. Sehingga dalam tahap ini, seorang pemuda diharapkan mampu untuk menentukan elemen kunci pertimbangan yang digunakan untuk mencocokkan opsi yang paling sesuai. Kegiatan tersebut dapat disebut sebagai?",
+                "optionA": "a. Searching",
+                "optionB": "b. Matching",
+                "optionC": "c. Compiling",
+                "optionD": "d. Identifiying",
+                "correctOption": "optionB"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Mengapa pengelolaan peluang merupakan hal yang sangat penting bagi pemuda?",
+                "optionA": "a. Dengan melakukan pengelolaan, peluang mampu menjadi sebuah makna besar dan dan bisa mengubah kualitas kehidupan pemuda menjadi lebih baik",
+                "optionB": "b. Pemuda menjadi lebih aktif dalam meraih materi dengan cara bekerja",
+                "optionC": "c. Pemuda mampu melihat sisi baik dan buruk dalam dunia bekerja",
+                "optionD": "d. Pemuda mampu memilih dan memproyeksikan karirnya kedepan saat melakukan pengelolaan peluang",
+                "correctOption": "optionA"
+            }
+        ]
+    },
+    {
+        "modulenum": "nine",
+        "modulenumber": "8",
+        "quiztitle":"8. Mengelola Trade Off",
+        "quizquestions": [
+            {
+                "quizquestionnum":"0",
+                "quizquestion": "Apa yang dimaksud dengan konsep Trade-Off:",
+                "optionA": "a. Adalah tentang menyeimbangkan 2 faktor yang tidak dapat dicapai secara serentak pada saat yang sama. ",
+                "optionB": "b. Sebuah pilihan tentang pengorbanan pemuda dalam mengikhlaskan suatu hal guna untuk mendapatkan sebuah hal yang lebih baik lagi",
+                "optionC": "c. Sebuah konsep tentang bagaimana cara bertahan hidup dengan cara membuat relasi dengan masyarakat yang menguntunkan dirinya",
+                "optionD": "d. Sebuah konsep tentang seorang manusia yang memiliki kepentingan yang sama untuk mencapai suatu tujuan dan mufakat",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"1",
+                "quizquestion": "Konsep Trade-Off tentu memiliki aspek-aspek sendiri apabila dilihat secara komprehensif. Sehingga kemudian, salah satu nya adalah sebuah aspek terkait pengorbanan atau pengeluaran yang ditanggung untuk melakukan proses/kegiatan yang dipilih. Selain itu, dalam kegiatan ini biasanya diukur dalam satuan mata uang yang harus dikeluarkan untuk mendukung aktivitas tertentu dan disandingkan dengan hasil yang diperoleh. Aspek ini disebut?",
+                "optionA": "a. Pengorbanan",
+                "optionB": "b. Penghematan",
+                "optionC": "c. Keluaran/Hasil",
+                "optionD": "d. Biaya",
+                "correctOption": "optionD"
+            },
+            {
+                "quizquestionnum":"2",
+                "quizquestion": "Bagaimana cara membangun pondasi Trade-Off yang paling tepat?",
+                "optionA": "a. Pemuda harus mengetahui faktor apa yang akan di hadapi, setelah memahami faktor tersebut pemuda mampu untuk menguraikan faktor dan membuat penilaian terhadap setiap aspek dan menentukan nilai akhir.",
+                "optionB": "b. Pemuda harus mengenal dirinya sendiri untuk melakukan penilaian. Agar nantinya, hasil akhir tersebut dapat terukur dengan baik.",
+                "optionC": "c. Seorang pemuda harus memiliki self confident untuk membangun trade off tersebut agar proses pemahaman faktor dapat berjalan dengan lancar",
+                "optionD": "d. Sebagai makhluk sosial, seorang pemuda dapat membangun relasi dengan orang lain agar mampu membantu dirinya untuk membuat penilaian terhadap setiap aspek.",
+                "correctOption": "optionA"
+            },
+            {
+                "quizquestionnum":"3",
+                "quizquestion": "Meskipun penilaian telah dibuat, namun pemuda tidak harus menghilangkan secara utuh 1 faktor, namun cara mengelolanya bisa dengan mencari keseimbangan. Salah satu cara yang tepat untuk menyeimbangkan 2 faktor tersebut adalah:",
+                "optionA": "a. Pengelolaan biaya dengan baik dan melihat peluang dari hasil serta durasi ketika bekerja",
+                "optionB": "b. Menganalisis kesempatan kerja dan melihat peluang yang dapat di raih dari kesempatan tersebut",
+                "optionC": "c. Melakukan opsi yang paling menguntungkan dan Mengelola secara terbatas opsi lainnya.",
+                "optionD": "d. Pemuda bisa membuat penilaian terhadap setiap aspek dan menentukan nilai akhir dari setiap opsi yang diambil.",
+                "correctOption": "optionC"
+            }
+        ]
+    }
+]

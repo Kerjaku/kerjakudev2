@@ -23,9 +23,9 @@ export default class ModuleNineC extends Component {
                     <br /><br />
                     Contoh simulasi penerapan langkah diatas sebagai berikut:
                     <ol>
-                        <li class="module-subtitle2" style={{ fontWeight: "normal" }}>Faktor teridentifikasi:</li>
+                        <li class="module-subtitle2" style={{ fontWeight: "bold" }}>Faktor teridentifikasi:</li>
                         Minat bekerja: di bidang retailPeluang kerja: tersedia di AlfamartJenis pekerjaan impian: bekerja di Gelael
-                        <li class="module-subtitle2" style={{ fontWeight: "normal" }}>Penguraian faktor:</li>
+                        <li class="module-subtitle2" style={{ fontWeight: "bold" }}>Penguraian faktor:</li>
                         <br />
                         <img src={C} style={{ width: '100%' }} />
                         <li class="module-subtitle2" style={{ fontWeight: "normal" }}>Membuat penilaian:</li>

@@ -24,11 +24,11 @@ export default class ModuleOneB extends Component {
                                 <br /><br />
                                 Reaksi terhadap dunia kerja yang berbeda dari dunia sebelumnya sangat bergantung dari bagaimana seseorang mengenali dirinya. Sebab dengan seseorang memahami dirinya sendiri, dia bisa memahami dengan menyadari penyebab dan harus bagaimana menyikapi atau mengatasi kalau ada sesuatu yang salah sehingga dapat mencari solusinya.
                                 <br /><br />
-                                Dalam pengenalan diri kita akan fokus pada dua topik utama:
+                                <span style={{color:"#40A26E"}}>Dalam pengenalan diri kita akan fokus pada dua topik utama:</span>
                                 <br />
-                                1. Pengenalan potensi diri
+                                <b>1.</b> Pengenalan potensi diri
                                 <br />
-                                2. Pengenalan kecenderungan kepribadian
+                                <b>2.</b> Pengenalan kecenderungan kepribadian
                             </Item>
                         </Grid>
                         <Grid item xs={4}>

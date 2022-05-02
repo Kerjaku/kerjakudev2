@@ -19,26 +19,18 @@ export default class ModuleSevenG extends Component {
                     G. REFLEKSI PEMBELAJARAN
                 </div>
                 <div class="module-text" id="moduleonetext">
-                    <Grid container spacing={2}>
-                        <Grid item xs={6} elevation={0}>
-                            <Item>
-                                Sesi refleksi bisa diarahkan sebagai aktivitas untuk memperluas referensi pemahaman pemuda terkait budaya kerja dan culture shock.
-                                <br /><br />
-                                Beberapa pertanyaan yang dapat dirujuk untuk refleksi diantaranya:
-                                <ol>
-                                    <li>Apakah pernah mengalami culture shock? Atau melihat orang lain mengalami culture shock? Gambarkan situasinya.</li>
-                                    <li>Apa akibat <i>culture shock?</i> </li>
-                                    <li>Apa pentingnya mengetahui budaya kerja?</li>
-                                    <li>Bagi pengalaman dan pemikiran terkait budaya kerja yang pernah ditemui!</li>
-                                </ol>
-                            </Item>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Item elevation={0}>
-                                <img src={E2} style={{ width: '100%' }} />
-                            </Item>
-                        </Grid>
-                    </Grid>
+                    Sesi refleksi bisa diarahkan sebagai aktivitas untuk memperluas referensi pemahaman pemuda terkait budaya kerja dan culture shock.
+                    <br /><br />
+                    <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Beberapa pertanyaan yang dapat dirujuk untuk refleksi diantaranya:</span>
+                    <ol>
+                        <li>Apakah pernah mengalami culture shock? Atau melihat orang lain mengalami culture shock? Gambarkan situasinya.</li>
+                        <li>Apa akibat <i>culture shock?</i> </li>
+                        <li>Apa pentingnya mengetahui budaya kerja?</li>
+                        <li>Bagi pengalaman dan pemikiran terkait budaya kerja yang pernah ditemui!</li>
+                    </ol>
+
+                    <img src={E2} style={{ width: '100%' }} />
+
                     <br /><br />
                     <img src={E} style={{ width: '100%' }} />
                 </div>

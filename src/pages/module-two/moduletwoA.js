@@ -1,11 +1,5 @@
 import React, { Component } from 'react'
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 
-const Item = styled(Paper)(({ theme }) => ({
-    elevation: 0,
-    boxShadow: 'none'
-}));
 
 export default class ModuleTwoA extends Component {
     render() {

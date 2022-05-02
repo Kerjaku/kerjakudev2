@@ -15,11 +15,11 @@ export default class ModuleSevenD extends Component {
                     <ol>
                         <li>Mencari informasi budaya kerja di lingkungan baru dan merekonsiliasi informasi yang kita dapatkan.Rekonsiliasi informasi dilakukan untuk mengelola pemikiran akan: </li>
                         <ul>
-                            <li>Ide yang terbentuk sebelumnya</li>
-                            <li>Harapan</li>
-                            <li>Kebutuhan personal </li>
-                            <li>Zona nyaman</li>
-                            <li>Reaksi kita terhadap informasi</li>
+                            •Ide yang terbentuk sebelumnya<br />
+                            •Harapan<br />
+                            •Kebutuhan personal <br />
+                            •Zona nyaman<br />
+                            •Reaksi kita terhadap informasi<br />
                         </ul>
                         <br /><br />
                         <li>
@@ -29,13 +29,13 @@ export default class ModuleSevenD extends Component {
                             <br /><br />
                             Sadari bahwa berurusan dengan kesulitan dapat dengan sendirinya menjadi hal yang sangat bermanfaat dan menyenangkan serta memperkaya pengalaman anda.
                         </li>
-                        <br/><br/>
+                        <br /><br />
                         <li>
                             Mengubah perilaku anda dalam budaya baru.
                             <br />
-                            Konteks - perilaku baru adalah cara berbeda untuk berbicara atau mengekspresikan diri, gerakan yang berbeda. Hal ini bisa mulai anda latih dan biasakan pada waktu yang tersedia. Contoh dari perilaku baru misalnya mulai membiasakan bangun pagi, melatih menyampaikan pendapat atau terkait teknikalitas.
+                            <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Konteks</span> - perilaku baru adalah cara berbeda untuk berbicara atau mengekspresikan diri, gerakan yang berbeda. Hal ini bisa mulai anda latih dan biasakan pada waktu yang tersedia. Contoh dari perilaku baru misalnya mulai membiasakan bangun pagi, melatih menyampaikan pendapat atau terkait teknikalitas.
                         </li>
-                        <br/><br/>
+                        <br /><br />
                         <li>
                             <i>Kindness</i>
                             Kebaikan hati adalah krusial, semakin Anda bisa mengandalkan diri sendiri untuk menunjukkan kebaikan diri sendiri dan orang lain, semakin Anda merasa nyaman.

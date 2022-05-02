@@ -23,7 +23,7 @@ export default class ModuleThreeE extends Component {
                 <div class="module-text">
                     Refleksi pembelajaran ini untuk melihat kembali tingkat pemahaman peserta mengenai topik ini serta mendorong peserta untuk menghasilkan sebuah rencana tindak lanjut.
                     <br /><br />
-                    Merumuskan nilai-nilai penting di lingkungan kerja dan merefleksikan:
+                    <span style={{color:"#40A26E", fontWeight:'bold'}}>Merumuskan nilai-nilai penting di lingkungan kerja dan merefleksikan:</span>
                     <br/>
                     <img src={E} stylee={{ width: '100%' }} />
                     <br/>

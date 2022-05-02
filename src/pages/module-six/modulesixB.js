@@ -11,7 +11,7 @@ export default class ModuleSixB extends Component {
                 <div class="module-text" id="moduleonetext">
                     Dalam mengambil keputusan ada beberapa hal yang harus dipertimbangkan supaya keputusan yang dibuat rasional menurut kondisi yang dihadapi dan tidak didasarkan kepada emosi sesaat atau sekehendak hati.
                     <br/> <br/>
-                    Hal-hal yang perlu dipertimbangkan oleh pemuda dalam mengambil keputusan mencakup 3 komponen, yaitu:
+                    <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Hal-hal yang perlu dipertimbangkan oleh pemuda dalam mengambil keputusan mencakup 3 komponen, yaitu:</span>
                     <br/><br/>
                     <ol>
                         <li class="module-subtitle2">Tujuan (Goals)</li>

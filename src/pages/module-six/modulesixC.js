@@ -9,10 +9,12 @@ export default class ModuleSixC extends Component {
                     C. PROSES PENGAMBILAN KEPUTUSAN
                 </div>
                 <div class="module-text" id="moduleonetext">
-                    Keputusan yang baik dihasilkan dari proses yang baik pula. Proses berarti langkah-langkah diuraikan dengan sistematis, hal ini dimaksudkan agar tidak ada komponen mendasar yang terlewatkan. Kanvas pengambilan Keputusan dapat digunakan oleh pemuda dalam proses pengambilan keputusan, contoh isian sebagai berikut:
+                    Keputusan yang baik dihasilkan dari proses yang baik pula. Proses berarti langkah-langkah diuraikan dengan sistematis, hal ini dimaksudkan agar tidak ada komponen mendasar yang terlewatkan.
+                    <br /><br />
+                    <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Kanvas pengambilan Keputusan dapat digunakan oleh pemuda dalam proses pengambilan keputusan, contoh isian sebagai berikut:</span>
                     <br />
                     <img class="moduleimgwide" src={C} />
-                    Prinsip proses pengambilan keputusan sebagaimana terdapat dalam kanvas diatas adalah:
+                    <b>Prinsip proses pengambilan keputusan sebagaimana terdapat dalam kanvas diatas adalah:</b>
                     <ol>
                         <li class="module-subtitle2">Keputusan akan berbeda sesuai kondisi yang dihadap</li>
                         Dari contoh di atas, pemuda satu dan yang lain mungkin akan mengambil keputusan yang berbeda, meskipun komponen pertimbangannya sama. Hal ini sangat tergatung pada kondisi yang dihadapi dan prioritas personal.

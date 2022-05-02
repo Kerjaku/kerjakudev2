@@ -30,7 +30,7 @@ export default class ModuleThreeC extends Component {
 
                     Klarifikasi (atau klasifikasi?) nilai sosial yang ada di dalam masyarakat tersebut dipengaruhi oleh banyak faktor yang melatarbelakanginya, misalnya saja faktor kebudayaan yang dianut masyarakat. Hal ini yang mengakibatkan antara masyarakat yang satu dan yang lain terdapat perbedaan dalam menentukan tata nilai sosialnya.
                     <br /><br />
-                    Berikut beberapa contoh nilai sosial yg berlaku di masyarakat:
+                    <span style={{color:"#40A26E", fontWeight:'bold'}}>Berikut beberapa contoh nilai sosial yg berlaku di masyarakat:</span>
 
                     <Grid container spacing={2}>
                         <Grid item xs={6} elevation={0}>

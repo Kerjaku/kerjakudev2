@@ -19,24 +19,19 @@ export default class ModuleFiveE extends Component {
                     E. REFLEKSI PEMBELAJARAN
                 </div>
                 <div class="module-text" id="moduleonetext">
-                    <Grid container spacing={2}>
-                        <Grid item xs={6} elevation={0}>
-                            <Item>
-                                Kita butuh berkembang dan meningkat dalam berkomunikasi asertif di dalam lingkup sosial dan pekerjaan. Berikut ini beberapa pertanyaan refleksi yang bisa membantu mengarahkan pada pendalaman pengenalan diri dan peningkatan komunikasi asertif kita:
+                    
+                                Kita butuh berkembang dan meningkat dalam berkomunikasi asertif di dalam lingkup sosial dan pekerjaan. 
+                                <br/><br/>
+                                <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Berikut ini beberapa pertanyaan refleksi yang bisa membantu mengarahkan pada pendalaman pengenalan diri dan peningkatan komunikasi asertif kita:</span>
                                 <ol>
                                     <li>Dari skala 1 – 10, kira-kira seberapakah ukuran kejujuran Anda pada diri sendiri dan kepada orang lain?</li>
                                     <li>Apakah orang lain dapat merasakan keterlibatan, kontribusi dan peran Anda dalam bekerja bersama?</li>
                                     <li>Bagaimana komunikasi asertif Anda dengan rekan sekerja yang berbeda visi?</li>
                                     <li>Bagaimana secara efektif Anda dapat mengembangkan komunikasi asertifnya?</li>
                                 </ol>
-                            </Item>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Item elevation={0}>
+                            
                                 <img src={E1}/>
-                            </Item>
-                        </Grid>
-                    </Grid>
+                           
                     <img src={E2}/>
                 </div>
             </ >

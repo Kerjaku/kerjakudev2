@@ -20,7 +20,7 @@ export default class ModuleFiveC extends Component {
                     <br/><br/>
                     Dengan mengembangkan komunikasi asertif artinya juga membangun rasa percaya diri sebagai pribadi yang otentik. Sekalipun tidak semua orang akan selalu setuju atau mengikuti, namun komunikasi asertif dapat membangun rasa percaya dalam hubungan karena sikapnya yang positif, tegas dan tetap memperhatikan hak dan kepentingan orang lain. Akibatnya, komunikasi asertif dapat mendorong relasi yang baik dan mengantarkan kita pada kesuksesan.
                     <br/><br/>
-                    Ada beberapa teknik yang berkaitan dengan bagaimana mengembangkan komunikasi asertif:
+                    <span style={{color:"#40A26E", fontWeight:'bold'}}>Ada beberapa teknik yang berkaitan dengan bagaimana mengembangkan komunikasi asertif:</span>
                     <img class="moduleimgwide" src={C}/>
                     <br/><br/>
                     <ol>

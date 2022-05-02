@@ -25,7 +25,9 @@ export default class ModuleTwoE extends Component {
                             <Item>
                                 <ol>
                                     <li>Apakah seseorang telah memberikan penilaian jujur ketika mengidentifikasi mental block-nya? Penilaian jujur dan terbuka menjadi tumpuan penting untuk menentukan langkah-langkah treatment selanjutnya.</li>
+                                    <br/><br/>
                                     <li>Apakah perlu untuk membongkar mental block saat ini juga? Sangat penting membenamkan dan memperkuat opini bahwa tidak ada alasan untuk menunda pengikisan mental block.<br /> Pemikiran bahwa mental block tidak perlu diatasi saat ini dan dapat ditunda untuk sementara waktu merupakan pola pikir yang bagian dari mental block itu sendiri, sehingga diharapkan para peserta dapat mengatasi hal tersebut melalui penegasan yang dikonsensuskan</li>
+                                    <br/><br/>
                                     <li>Apa kerugian dan manfaat mengikis mental block? Sebagaimana disampaikan sebagai aktivitas pendukung tindakan nyata seseorang mungkin perlu mendapatkan pendapat dari pihak lain dan membuka wawasan mereka khususnya terkait kerugiankerugian yang akan diperoleh apabila menunda tindakan nyata pengikisan mental block dan beberapa benefit akan terlewatkan.</li>
                                 </ol>
                             </Item>

@@ -3,6 +3,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
+//import other React components
 import Header from "./components/Header.js"
 import Footer from "./components/Footer.js"
 import modulesjson from "./modules.json"
@@ -30,8 +31,9 @@ const theme = createTheme({
 
 function ModuleHome() {
     const location = useLocation()
-    let { modulenumber, modulenum, modulepagetotal } = location.state
+    let { modulenumber, modulenum, modulepagetotal, username } = location.state
     let modules = modulesjson[modulenumber].modulenames
+    
     function ModuleIcon(){
         if (modulenumber==="0"){
             return ModuleOneIcon
@@ -69,13 +71,13 @@ function ModuleHome() {
                 <Stack direction="row" spacing={2}>
                     <div class="module-page-module-title">{module.name}</div>
                     <div class="module-page-boxes-button" >
-                        <Link to={'/kerjakudev2/modulebase'} state={{ page: (module.pageNum), modulenumber:(modulenumber), modulepagetotal:(modulepagetotal) }}><Button variant="contained" color="primary"> Mulailah</Button></Link>
+                        <Link to={'/kerjakudev2/modulebase'} style={{ textDecoration: 'none' }} state={{ page: (module.pageNum), modulenumber:(modulenumber), modulepagetotal:(modulepagetotal), username: (username) }}><Button variant="contained" color="primary"> Mulailah</Button></Link>
                     </div>
                 </Stack>
             </div>
         )
-
     })
+    
     return (
         <ThemeProvider theme={theme}>
             <Header />
@@ -83,12 +85,7 @@ function ModuleHome() {
                 <div class="module-title">{modulesjson[modulenumber].name}</div>
                 <Stack direction="row" spacing={2}>
                     <img alt="etrainingicon" src={ModuleIcon()} class="etrainingIcon" />
-                    <div>
-                        <div class="etraining-page-boxes">
-                            <div class="home-page-boxes-text">{modulesjson[modulenumber].description}</div>
-                            <div class="home-page-boxes-button" ><Button variant="contained">Lanjutkan Belajar</Button></div>
-                        </div>
-                    </div>
+                    <div style={{backgroundColor:'white', marginTop:'7.5%', marginBottom:'7.5%', marginRight:'7.5%', display: 'flex',justifyContent: 'center', alignItems: 'center'}} class="home-page-boxes-text">{modulesjson[modulenumber].description}</div>
                 </Stack>
             </div>
             <div class="module-page-modules-holder">

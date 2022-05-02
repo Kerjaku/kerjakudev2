@@ -21,7 +21,7 @@ export default class ModuleThreeD extends Component {
                     <br /><br />
                     Strategi untuk jaminan kesuksesan termasuk menetapkan standar untuk sukses pada tingkat yang sangat sederhana sehingga kemungkinan gagal sangat rendah, dan menghindari kegagalan dengan berhasil.
                     <br /><br />
-                    Langkah sederhana dalam proses ini adalah dengan melakukan refleksikan pernyataan berikut ini:
+                    <span style={{color:"#40A26E", fontWeight:'bold'}}> Langkah sederhana dalam proses ini adalah dengan melakukan refleksikan pernyataan berikut ini:</span>
                     <ul>
                         <li>Saya suka membaca</li>
                         <li>Saya panik jika terlambat menghadiri sebuah acara</li>
@@ -35,7 +35,9 @@ export default class ModuleThreeD extends Component {
                         <li>Dan lain-lain</li>
                     </ul>
                     <br /><br />
-                    Pernyataan di atas dimunculkan untuk merefleksikan hal – hal yang baik yang mereka miliki dan untuk menunjukkan betapa setiap orang punya minat dan keunikan masing – masing. Untuk lebih menajamkan refleksi, tanyakan pertanyaan eksploratif ini:
+                    Pernyataan di atas dimunculkan untuk merefleksikan hal – hal yang baik yang mereka miliki dan untuk menunjukkan betapa setiap orang punya minat dan keunikan masing – masing. 
+                    <br/><br/>
+                    <span style={{color:"#40A26E", fontWeight:'bold'}}>Untuk lebih menajamkan refleksi, tanyakan pertanyaan eksploratif ini:</span>
                     <ul>
                         <li>Aktivitas – aktivitas apa yang paling saya sukai (hobi)?</li>
                         <li>Nilai apa saja yang dianggap penting di keluarga saya? </li>

@@ -4,7 +4,7 @@
         "description": "Peserta memahami jenis-jenis kepribadian dan mampu mengenali kepribadian untuk pengembangan potensi masing-masing.",
         "modulenum": "one",
         "modulenumber": "0",
-        "modulepagetotal" : "10",
+        "modulepagetotal" : "11",
         "modulenames": [
             {
                 "name": "A. Transisi Ke Dunia Kerja",
@@ -37,7 +37,7 @@
         "modulenum": "two",
         "modulenumber": "1",
         "description": "Peserta memahami konsepsi mental block dan mampu merumuskan langkah pengikisan mental block dalam aplikasi personal.",
-        "modulepagetotal" : "4",
+        "modulepagetotal" : "5",
         "modulenames": [
             {
                 "name": "A. Mengenali Mental Block",
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "name": "03 PENGENALAN NILAI SOSIAL DAN NILAI DIRI",
+        "name": "03 Pengenalan Nilai Sosial Dan Nilai Diri",
         "description": "Peserta memahami konsep nilai sosial dan nilai diri serta mampu menentukan nilai personal dalam tatanan sosial masing-masing.",
         "modulenum": "three",
         "modulenumber": "2",
@@ -91,11 +91,11 @@
         ]
     },
     {
-        "name": "04 VISI DAN ORIENTASI",
+        "name": "04 Visi Dan Orientasi",
         "description": "Peserta mampu memahami konsep visi orientasi dan mampu menyusun visi personal.",
         "modulenum": "four",
         "modulenumber": "3",
-        "modulepagetotal" : "3",
+        "modulepagetotal" : "4",
         "modulenames": [
             {
                 "name": "A. Mengenal Konsep Visi dan Orientasi",
@@ -116,10 +116,10 @@
         ]
     },
     {
-        "name": "05 ASERTIF",
+        "name": "05 Asertif",
         "modulenum": "five",
         "modulenumber": "4",
-        "modulepagetotal" : "4",
+        "modulepagetotal" : "5",
         "description": "Peserta memahami konsep tindakan asertif dan mengetahui cara-cara untuk mengembangkan komunikasi asertif.",
         "modulenames": [
             {
@@ -145,10 +145,10 @@
         ]
     },
     {
-        "name": "06 PENGAMBILAN KEPUTUSAN",
+        "name": "06 Pengambilan Keputusan",
         "modulenum": "six",
         "modulenumber": "5",
-        "modulepagetotal" : "3",
+        "modulepagetotal" : "4",
         "description": "Peserta mengetahui cara-cara pengambilan keputusan dan mampu membuat keputusan untuk mendukung pengembangan kapasitas personal.",
         "modulenames": [
             {
@@ -170,10 +170,10 @@
         ]
     },
     {
-        "name": "07 PENGENALAN BUDAYA KERJA DAN KULTUR SEKTORAL",
+        "name": "07 Pengenalan Budaya Kerja Dan Kultur Sektoral",
         "modulenum": "seven",
         "modulenumber": "6",
-        "modulepagetotal" : "5",
+        "modulepagetotal" : "6",
         "description": "Peserta dapat mengenali cara memotret budaya kerja dan menyusun rencana-rencana untuk mengikis dampak Culture Shock.",
         "modulenames": [
             {
@@ -203,10 +203,10 @@
         ]
     },
     {
-        "name": "08 PENGELOLAAN PELUANG",
+        "name": "08 Pengelolaan Peluang",
         "modulenum": "eight",
         "modulenumber": "7",
-        "modulepagetotal" : "3",
+        "modulepagetotal" : "4",
         "description": "Peserta dapat menemukenali peluang di sekitarnya dan mampu menyusun rencana untuk mengelola peluang tersebut.",
         "modulenames": [
             {
@@ -228,10 +228,10 @@
         ]
     },
     {
-        "name": "09 PENGELOLAAN TRADE OFF",
+        "name": "09 Pengelolaan Trade Off",
         "modulenum": "nine",
         "modulenumber": "8",
-        "modulepagetotal" : "5",
+        "modulepagetotal" : "6",
         "description": "Peserta mampu mengenali konsep dan aspek trade off serta menerapkan pertukaran yang seimbang.",
         "modulenames": [
             {
@@ -255,7 +255,7 @@
                 "pageNum": "4"
             },
             {
-                "name": "G. REFLEKSI PEMBELAJARAN",
+                "name": "G. Refleksi Pembelajaran",
                 "pageNum": "5"
             }
         ]

@@ -19,25 +19,19 @@ export default class ModuleSixE extends Component {
                     E. REFLEKSI PEMBELAJARAN
                 </div>
                 <div class="module-text" id="moduleonetext">
-                    <Grid container spacing={2}>
-                        <Grid item xs={6} elevation={0}>
-                            <Item>
-                                Sesi refleksi bisa diarahkan sebagai aktivitas pendukung untuk menguatkan pemahaman atau menemukan kesepahaman pemikiran dalam bagian yang dianggap sebagai pesan kunci.Beberapa pertanyaan yang dapat dirujuk untuk refleksi di antaranya
-                                <ol>
-                                    <li>Bagaimana kaitan pengambilan keputusan dengan pencapaian tujuan?</li>
-                                    <li>Apakah ada keputusan yang salah?</li>
-                                    <li>Apa yang menghalangi pemuda dalam membuat keputusan?</li>
-                                    <li>Bagaimana cara mengatasi halangan tersebut?</li>
-                                </ol>
-                            </Item>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Item elevation={0}>
-                                <img src={E1} style={{width:'100%'}} />
-                            </Item>
-                        </Grid>
-                    </Grid>
-                    <img style={{width:'100%'}} src={E2} />
+                    Sesi refleksi bisa diarahkan sebagai aktivitas pendukung untuk menguatkan pemahaman atau menemukan kesepahaman pemikiran dalam bagian yang dianggap sebagai pesan kunci.
+                    <br /><br />
+                    <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Beberapa pertanyaan yang dapat dirujuk untuk refleksi di antaranya:</span>
+                    <ol>
+                        <li>Bagaimana kaitan pengambilan keputusan dengan pencapaian tujuan?</li>
+                        <li>Apakah ada keputusan yang salah?</li>
+                        <li>Apa yang menghalangi pemuda dalam membuat keputusan?</li>
+                        <li>Bagaimana cara mengatasi halangan tersebut?</li>
+                    </ol>
+
+                    <img src={E1} style={{ width: '100%' }} />
+
+                    <img style={{ width: '100%' }} src={E2} />
                 </div>
             </ >
         )

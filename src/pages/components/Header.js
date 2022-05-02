@@ -25,9 +25,9 @@ function Header() {
             <img alt="logo" src={logo} class="logo" />
             <div class="buttons">
                 <Stack spacing={2} direction="row">
-                    <Link to="/kerjakudev2"><Button variant="text" color="secondary">Home</Button></Link>
-                    <Link to="/kerjakudev2/etrainingHome"><Button variant="contained">E-Training</Button></Link>
-                    <Button variant="text" color="secondary">Job Portal</Button>
+                    <Link to="/kerjakudev2" style={{ textDecoration: 'none' }}><Button variant="text" color="secondary">Home</Button></Link>
+                    <Link to="/kerjakudev2/etrainingHome" style={{ textDecoration: 'none' }}><Button variant="contained">E-Training</Button></Link>
+                    <Link to="/kerjakudev2/jobboard" style={{ textDecoration: 'none' }}><Button variant="text" color="secondary">Job Portal</Button></Link>
                 </Stack>
             </div>
         </div>

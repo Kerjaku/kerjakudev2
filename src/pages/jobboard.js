@@ -1,22 +1,25 @@
-/*This is the E-training home page. It displays all of the module names and links to each module page*/
 import '../App.css';
-import { Component } from 'react';
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
+import { Component } from 'react';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import { styled } from '@mui/material/styles';
 
-//import other React components needed
-import ModuleOneIcon from "./images/ModuleOneIcon.png"
-import Header from './components/Header.js'
+//import other React components
 import Footer from './components/Footer.js'
-import modules from "./modules.json"
+import logo from './images/logo.png';
+import jobPosting1 from './images/job_posting1.jpg';
+import jobPosting2 from './images/job_posting2.jpg';
+import jobPosting3 from './images/job_posting3.jpg';
 
 
+/*theme contains the color palette for the website*/
 const theme = createTheme({
   palette: {
     primary: {
@@ -41,18 +44,26 @@ const style = {
   textAlign: 'center'
 };
 
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
 
-class EtrainingHome extends Component {
+class JobBoard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       username: '',
       password: '',
-      modulesComplete: false,
       module: JSON.parse(window.localStorage.getItem('module')),
       show: true,
       show_login: false,
       show_signup: false,
+      show_blocked: false,
+
     };
     this.getModule = this.getModule.bind(this);
     this.handleUserChange = this.handleUserChange.bind(this);
@@ -64,7 +75,17 @@ class EtrainingHome extends Component {
     this.showLogin = this.showLogin.bind(this);
     this.showSignup = this.showSignup.bind(this);
   }
-
+  componentDidMount() {
+    if (JSON.parse(window.localStorage.getItem('module')) === null) {
+      this.setState({
+        show: true
+      });
+    } else {
+      this.setState({
+        show: false
+      });
+    }
+  }
   hideModal = () => {
     this.setState({ show: false });
   };
@@ -86,7 +107,6 @@ class EtrainingHome extends Component {
     this.setState({ show_signup: true });
     this.hideModal()
   };
-
   handleUserChange(e) {
     this.setState({
       username: e.target.value
@@ -107,6 +127,7 @@ class EtrainingHome extends Component {
         this.setState({
           module: json
         });
+
         window.localStorage.setItem('module', JSON.stringify(json));
         window.localStorage.setItem('loggedIn', JSON.stringify("true"));
 
@@ -114,13 +135,13 @@ class EtrainingHome extends Component {
           document.getElementById("wrongPassword").style.visibility = "visible"
         } else {
           this.hideLoginModal()
-        }
-        if (this.state.module == 9) {
-          this.setState({
-            modulesComplete: true
-          })
+          console.log(Number(this.state.module))
+          if (Number(this.state.module) < 9) {
+            this.setState({ show_blocked: true });
+          }
         }
       });
+
   }
 
   handleSignUp() {
@@ -137,27 +158,7 @@ class EtrainingHome extends Component {
     this.hideSignupModal()
   }
 
-
-  componentDidMount() {
-    if (JSON.parse(window.localStorage.getItem('module')) === null) {
-      this.setState({
-        show: true
-      });
-    } else {
-      this.setState({
-        show: false
-      });
-      if (window.localStorage.getItem('module') == 9) {
-        this.setState({
-          modulesComplete: true
-        });
-      }
-    }
-  }
-
-
   render() {
-    console.log(this.state.module)
     return (
       <ThemeProvider theme={theme}>
         <Modal open={this.state.show} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
@@ -171,7 +172,7 @@ class EtrainingHome extends Component {
         <Modal open={this.state.show_login} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">Masukkan Nama Pengguna Anda:</Typography> <br />
-            Enter Username: <input type="text" onChange={this.handleUserChange} /><br />
+            Enter Username: <input type="text" onChange={this.handleUserChange} /> <br />
             Enter Password: <input type="password" onChange={this.handlePasswordChange} /> <br />
             <div id="wrongPassword" style={{ color: 'red', visibility: 'hidden' }}>Wrong Username or Password</div>
             <br /><br />
@@ -182,76 +183,55 @@ class EtrainingHome extends Component {
         <Modal open={this.state.show_signup} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description" >
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">Sign Up:</Typography> <br />
-            Enter Username: <input type="text" onChange={this.handleUserChange} />  <br />
-            Enter Password:<input type="password" onChange={this.handlePasswordChange} />
-            <br /><br />
+            Enter Username: <input type="text" onChange={this.handleUserChange} /> <br />
+            Enter Password:<input type="password" onChange={this.handlePasswordChange} /> <br /><br />
             <Button variant="contained" onClick={this.handleSignUp}>Sign Up</Button>
           </Box>
         </Modal>
 
-        <Modal open={this.state.modulesComplete} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
+        <Modal open={this.state.show_blocked} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
           <Box sx={style}>
-            <div class="etraining-page-module-title" style={{ textAlign: 'center' }}>E-Pelatihan Selesai!</div>
-            <div class="home-page-boxes-button" ><Link style={{ textDecoration: 'none' }} to={"/kerjakudev2/jobboard"}><Button variant="contained">Lihat Pekerjaan yang Tersedia</Button></Link></div>
+            The Job Board cannot be accessed until all E-Training is complete.
+            <div class="module-button">
+              <Link to="/kerjakudev2/etrainingHome" style={{ textDecoration: "none" }}><Button variant="contained" color="secondary">Return to ETraining Home</Button></Link>
+            </div>
           </Box>
         </Modal>
 
-        <Header />
-        <div class="etraining-header">Selamat datang kembali di Modul E-Training Anda!</div>
-        <div class="etraining-page-boxes-holder">
-          {modules.map((thismodule) => {
-            if (Number(thismodule.modulenumber) === Number(this.state.module)) {
-              return (
-                <Stack direction="row" spacing={2}>
-                  <img src={ModuleOneIcon} alt="etrainingIcon" class="etrainingIcon" />
-                  <div>
-                    <div class="etraining-page-boxes-top-title">Modul Dalam Proses:</div>
-                    <div class="etraining-page-boxes">
-                      <div class="etraining-page-boxes-title">{thismodule.name}</div>
-                      <div class="home-page-boxes-text">{thismodule.description}</div>
-                      <div class="home-page-boxes-button" ><Link style={{ textDecoration: 'none' }} to={"/kerjakudev2/modulehome"} state={{ modulenumber: (thismodule.modulenumber), modulenum: (thismodule.modulenum), modulepagetotal: (thismodule.modulepagetotal), username: (this.state.username) }}><Button variant="contained">Lanjutkan Belajar</Button></Link></div>
-                    </div>
-                  </div>
-                </Stack>
-              )
-            }
-          })}
+        <div class="home-page-header">
+          <img alt="logo" src={logo} class="logo" />
+          <div class="buttons">
+            <Stack spacing={2} direction="row">
+              <Link to="/kerjakudev2" style={{ textDecoration: 'none' }}><Button variant="text" color="secondary">Home</Button></Link>
+              <Link to="/kerjakudev2/etrainingHome" style={{ textDecoration: 'none' }}><Button variant="text" color="secondary">E-Training</Button></Link>
+              <Button variant="contained">Job Portal</Button>
+            </Stack>
+          </div>
         </div>
-        <div class="etraining-page-modules-holder">
-          <Stack direction="row" spacing={2}>
-            <div class="etraining-module-box">
-              <div class="etraining-page-modules-top-title">Modul Selesai:</div>
-              {modules.map((thismodule) => {
-                if (Number(thismodule.modulenumber) < Number(this.state.module)) {
-                  return (
-                    <div class="etraining-page-boxes">
-                      <div class="etraining-page-module-title">{thismodule.name}</div>
-                      <div class="home-page-boxes-text">{thismodule.description}</div>
-                      <div class="home-page-boxes-button" ><Link style={{ textDecoration: 'none' }} to={"/kerjakudev2/modulehome"} state={{ modulenumber: (thismodule.modulenumber), modulenum: (thismodule.modulenum), modulepagetotal: (thismodule.modulepagetotal), username: (this.state.username) }}><Button variant="contained">Modul Tinjauan</Button></Link></div>
-                    </div>
-                  )
-                }
-              })}
-            </div>
-            <div class="etraining-module-box">
-              <div class="etraining-page-modules-top-title">Modul Tersisa:</div>
-              {modules.map((thismodule) => {
-                if (Number(thismodule.modulenumber) > Number(this.state.module)) {
-                  return (
-                    <div class="etraining-page-boxes">
-                      <div class="etraining-page-module-title">{thismodule.name}</div>
-                      <div class="home-page-boxes-text">{thismodule.description}</div>
-                      <div class="home-page-boxes-button" ><Button disabled variant="contained">Lihat Detail Modul</Button></div>
-                    </div>
-                  )
-                }
-              })}
-            </div>
-          </Stack>
+        <hr class="line-break2" />
+        <div class="etraining-page-boxes-holder" style={{ marginBottom: '0%' }}>
+          <div class="etraining-page-boxes-top-title" style={{ fontSize: '30px', paddingTop: '1.5%', paddingBottom: '1.5%' }}>Menemukan Pekerjaan Baru Anda</div>
         </div>
+        <div class="etraining-page-modules-holder" style={{ marginTop: '0%' }}>
+          <div class="etraining-page-modules-top-title" style={{ paddingTop: '2%', paddingBottom: '2%' }}>Pekerjaan Tersedia:</div>
+          <div style={{ backgroundColor: 'white' }}>
+            <Stack direction="row" spacing={2} >
+              <Item style={{ width: '100%' }}> <img src={jobPosting1} style={{ width: '100%' }} /></Item>
+            </Stack>
+            <Stack direction="row" spacing={2} >
+              <Item style={{ width: '100%' }}> <img src={jobPosting2} style={{ width: '100%' }} /></Item>
+            </Stack>
+            <Stack direction="row" spacing={2} >
+              <Item style={{ width: '100%' }}> <img src={jobPosting3} style={{ width: '100%' }} /></Item>
+            </Stack>
+          </div>
+        </div>
+
+        <hr class="line-break" />
         <Footer />
       </ThemeProvider>
     );
   }
 }
-export default EtrainingHome;
+
+export default JobBoard;

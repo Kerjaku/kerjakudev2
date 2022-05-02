@@ -21,7 +21,9 @@ export default class ModuleOneF extends Component {
                     <Grid container spacing={2}>
                         <Grid item xs={8} elevation={0}>
                             <Item>
-                                Kepribadian kita yang unik tentunya tidak akan berhenti bertumbuh dan berkembang. Sesi refleksi bisa membantu mengarahkan pada pendalaman pengenalan diri sehingga peserta lebih memiliki kenyamanan dan kepercayaan diri akan kecenderungan kepribadiannya. Berikut beberapa pertanyaan dan arahan yang dapat membantu untuk refleksi dan memperdalam pengenalan diri di antaranya:
+                                Kepribadian kita yang unik tentunya tidak akan berhenti bertumbuh dan berkembang. Sesi refleksi bisa membantu mengarahkan pada pendalaman pengenalan diri sehingga peserta lebih memiliki kenyamanan dan kepercayaan diri akan kecenderungan kepribadiannya. 
+                                <br/><br/>
+                                <span style={{color:"#40A26E"}}>Berikut beberapa pertanyaan dan arahan yang dapat membantu untuk refleksi dan memperdalam pengenalan diri di antaranya:</span>
                                 <ul>
                                     <li>Bagaimana peserta memandang dirinya di masa lalu, saat ini, dan  masa depan?</li>
                                     <li>Bagaimana peserta mengenali kekuatan dan kelemahan karakter  serta rencana pengembangannya?</li>

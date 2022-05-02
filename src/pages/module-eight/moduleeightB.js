@@ -20,9 +20,9 @@ export default class ModuleEightB extends Component {
                         <br />
                         Merupakah proses pencarian kesempatan peningkatan kapasitas, di mana hal tersebut dapat diperoleh melalui:
                         <ul>
-                            <li> Pencarian virtual, yaitu dengan menggunakan teknologi internet untuk mencari informasi pelatihan peningkatan kapasitas kerja/wirausaha.</li>
-                            <li>Pencarian agensi, yaitu proses mencari informasi melalui institusi pemerintah terkait. Dalam hal ini pemuda bisa berkunjung ke Dinas Tenaga Kerja atau Dinas UMKM atau balai Latihan Kerja Pemerintah untuk mencari informasi apakah mereka menyediakan pelatihan-pelatihan terkait peningkatan kapasitas kerja/wirausaha bagi pemuda.</li>
-                            <li>Pencarian fasilitator, yaitu proses mencari informasi melalui lembaga non-pemerintah terkait program-program pelatihan peningkatan kapasitas atau kesiapan kerja. Dalam model pencarian ini para pemuda harus berhati-hati untuk menghindari hal yang tidak diinginkan seperti penipuan. Perlu mencari lembaga yang kredibel dan telah memiliki rekan jejak yang baik.</li>
+                            •Pencarian virtual, yaitu dengan menggunakan teknologi internet untuk mencari informasi pelatihan peningkatan kapasitas kerja/wirausaha.<br />
+                            •Pencarian agensi, yaitu proses mencari informasi melalui institusi pemerintah terkait. Dalam hal ini pemuda bisa berkunjung ke Dinas Tenaga Kerja atau Dinas UMKM atau balai Latihan Kerja Pemerintah untuk mencari informasi apakah mereka menyediakan pelatihan-pelatihan terkait peningkatan kapasitas kerja/wirausaha bagi pemuda.<br />
+                            •Pencarian fasilitator, yaitu proses mencari informasi melalui lembaga non-pemerintah terkait program-program pelatihan peningkatan kapasitas atau kesiapan kerja. Dalam model pencarian ini para pemuda harus berhati-hati untuk menghindari hal yang tidak diinginkan seperti penipuan. Perlu mencari lembaga yang kredibel dan telah memiliki rekan jejak yang baik.<br />
                         </ul>
                         <br /><br />
                         <b><i>Compiling</i></b>
@@ -34,14 +34,14 @@ export default class ModuleEightB extends Component {
                         <br />
                         Merupakan proses memilih opsi kesempatan yang sesuai dengan kebutuhan setiap pemuda. Dalam hal ini pemuda harus menentukan elemen kunci pertimbangan yang digunakan untuk mencocokkan opsi yang paling sesuai. Pertimbangan setiap pemuda mungkin akan berbeda.
                         <br /><br />
-                        Contoh: Seorang pemuda menentukan faktor kunci bagi dirinya adalah adanya proses pendampingan pada saat dan setelah pelatihan, karena pemuda membutuhkan diskusi lanjutan. Dengan contoh tabel sebelumnya maka kemudian pemuda melihat kembali dan memilih opsi ketiga karena matching atau sesuai dengan kebutuhannya.
+                        <span style={{ color: "#40A26E"}}>Contoh:</span> Seorang pemuda menentukan faktor kunci bagi dirinya adalah adanya proses pendampingan pada saat dan setelah pelatihan, karena pemuda membutuhkan diskusi lanjutan. Dengan contoh tabel sebelumnya maka kemudian pemuda melihat kembali dan memilih opsi ketiga karena matching atau sesuai dengan kebutuhannya.
                         <img src={B2} style={{ width: '100%' }} />
                         Warna hijau menunjukkan opsi yang dipilih pemuda dalam meingkatkan kapasitas kerja karena opsi tersebut dapat menjawab kebutuhan pemuda terkait pendampingan.
                         <br /><br />
                         <li class="module-subtitle2">Menindaklanjuti pilihan peningkatan kapasitas</li>
                         Langkah selanjutnya yang harus dilakukan pemuda adalah menindaklanjuti pilihan yang telah diambil. Proses ini merupakan upaya nyata dalam mewujudkan peningkatan kapasitas.
                         <br /><br />
-                        Contoh: Ketika pemuda telah memilih opsi ketiga pada tabel sebelumnya maka kemudian pemuda harus menindaklanjutinya dengan:
+                        <span style={{ color: "#40A26E"}}>Contoh:</span> Ketika pemuda telah memilih opsi ketiga pada tabel sebelumnya maka kemudian pemuda harus menindaklanjutinya dengan:
                         <ul>
                             <ol>Mendaftar atau melakukan registrasi di lembaga penyedia layanan</ol>
                             <ol>Mengikuti proses pelatihan sesuai ketentuan</ol>

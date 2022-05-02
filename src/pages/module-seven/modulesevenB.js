@@ -9,7 +9,9 @@ export default class ModuleSevenB extends Component {
                     B. PENGELOMPOKAN BUDAYA KERJA
                 </div>
                 <div class="module-text" id="moduleonetext">
-                    Budaya kerja yang dianut dan berlaku di perusahaan atau dalam posisi tertentu dapat diasumsikan mewakili sektor tertentu, dapat dikelompokkan menjadi empat jenis. Mengenal tipe masing-masing akan membantu para pemuda yang akan bekerja atau berwirausaha untuk mempersiapkan diri. Tipe budaya kerja tersebut adalah:
+                    Budaya kerja yang dianut dan berlaku di perusahaan atau dalam posisi tertentu dapat diasumsikan mewakili sektor tertentu, dapat dikelompokkan menjadi empat jenis. Mengenal tipe masing-masing akan membantu para pemuda yang akan bekerja atau berwirausaha untuk mempersiapkan diri. 
+                    <br/><br/>
+                    <span style={{ color: "#40A26E", fontWeight: 'bold' }}>Tipe budaya kerja tersebut adalah:</span>
                     <ol>
                         <li class="module-subtitle2">Budaya Klan</li>
                         Budaya klan menumbuhkan lingkungan kerja yang ramah. Orang-orang yang bekerja di perusahaan dengan budaya kerja ini biasanya memiliki banyak kesamaan. Mereka hampir serupa dengan sebuah keluarga besar dan pimpinan atau jajaran eksekutif dianggap sebagai mentor atau sosok penaung.

@@ -103,7 +103,7 @@
 .module-button{
   justify-content: center;
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .module-text{
@@ -322,9 +322,24 @@
   margin-left:2%;
   padding-top:2%
 }
-
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+}
+ol li:before {
+  color: #40A26E;
+  content: counter(list) ".";
+  left: -32px;
+  position: absolute;
+  text-align: right;
+  font-weight:bold;
+  width: 26px;
+}
 .footer{
-  background-color: #F47D4D;
+  background-color: #D3D3D3;
+  color:#068238;
+  font-weight: bold;
   width:80%;
   margin-left:10%;
   margin-right:10%;

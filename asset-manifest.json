@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/kerjakudev2/static/css/main.9491651c.css",
-    "main.js": "/kerjakudev2/static/js/main.d788e0b8.js",
+    "main.js": "/kerjakudev2/static/js/main.c39a5c14.js",
     "static/js/787.0e46809b.chunk.js": "/kerjakudev2/static/js/787.0e46809b.chunk.js",
     "static/media/homepage-icon.PNG": "/kerjakudev2/static/media/homepage-icon.3a24e43eaf5e5ceffbb4.PNG",
+    "static/media/job_posting3.jpg": "/kerjakudev2/static/media/job_posting3.1753008d5f552f0a3096.jpg",
     "static/media/E.png": "/kerjakudev2/static/media/E.feb31adaf1b5c3b2250f.png",
     "static/media/F.png": "/kerjakudev2/static/media/F.11c0c82971f132f3dced.png",
+    "static/media/job_posting1.jpg": "/kerjakudev2/static/media/job_posting1.49e154cb65fce66bb152.jpg",
+    "static/media/job_posting2.jpg": "/kerjakudev2/static/media/job_posting2.bf96dda84f972ba22cd7.jpg",
     "static/media/D1.png": "/kerjakudev2/static/media/D1.aa1970ff8bd333fc177c.png",
     "static/media/E2.png": "/kerjakudev2/static/media/E2.31be3d590492b06b644e.png",
     "static/media/C.png": "/kerjakudev2/static/media/C.8077f3cfbcaf0d4891c0.png",
@@ -39,11 +42,11 @@
     "static/media/ModuleFourIcon.PNG": "/kerjakudev2/static/media/ModuleFourIcon.c8d4e0104b1be92a23f9.PNG",
     "index.html": "/kerjakudev2/index.html",
     "main.9491651c.css.map": "/kerjakudev2/static/css/main.9491651c.css.map",
-    "main.d788e0b8.js.map": "/kerjakudev2/static/js/main.d788e0b8.js.map",
+    "main.c39a5c14.js.map": "/kerjakudev2/static/js/main.c39a5c14.js.map",
     "787.0e46809b.chunk.js.map": "/kerjakudev2/static/js/787.0e46809b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9491651c.css",
-    "static/js/main.d788e0b8.js"
+    "static/js/main.c39a5c14.js"
   ]
 }
